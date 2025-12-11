@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shares Dashboard</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Social Shares Module</h1>
+  </header>
+
+  <!-- Investor Ranking -->
+  <section>
+    <h2>Investor Ranking</h2>
+    <table id="rankingTable">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Investor</th>
+          <th>Total Capital</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- JS will inject rows -->
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Dividend Distribution Chart -->
+  <section>
+    <h2>Dividend Distribution</h2>
+    <canvas id="dividendChart"></canvas>
+  </section>
+
+  <!-- Yearly Share Value Evolution -->
+  <section>
+    <h2>Yearly Share Value Evolution</h2>
+    <canvas id="shareValueChart"></canvas>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
